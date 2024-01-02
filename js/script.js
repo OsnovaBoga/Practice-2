@@ -10,4 +10,6 @@ navBtnImg.src = "./img/svg/menu-open.svg";
     }
 
 }
-  AOS.init();
+  AOS.init({
+    once: true
+  });
