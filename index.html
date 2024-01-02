@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+    <!-- Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/icon/logo/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/logo/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/icon/logo/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/icon/logo/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./img/icon/logo/safari-pinned-tab.svg"
+      color="#000000"
+    />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#000000" />
+    <!-- Title -->
+    <title>Web page name</title>
+  </head>
+  <body>
+    <!-- Header block  -->
+    <header class="header">
+      <div class="container">
+        <!-- Navaigation  -->
+        <nav id="nav" class="nav">
+          <a href="./index.html" class="logo">Kelvin</a>
+
+          <ul class="nav-list nav-active">
+            <li><a class="link active" href="">Home</a></li>
+            <li><a class="link" href="#portfolio-key">Works</a></li>
+            <li><a class="link" href="#skills-key">Services</a></li>
+            <li><a class="link" href="#about-key">About</a></li>
+            <li><a class="link" href="#contacts-key">Contact</a></li>
+          </ul>
+          <button id="nav-btn" class="nav-open">
+            <img
+              id="nav-btn-img"
+              src="./img/svg/menu-open.svg"
+              alt="nav button"
+            />
+          </button>
+        </nav>
+        <div class="header-inner">
+          <div class="header-content">
+            <h1 id="about-key" class="main-title">
+              Kelvin Kramer <br />
+              Designer & Developer
+            </h1>
+            <p class="subtitle">
+              I’m a portrait, fashion and lifestyle photographer living In New
+              York City. During my thirteen year tenure here.
+            </p>
+          </div>
+
+          <div class="header-img">
+            <img src="./img/main/hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main block  -->
+    <main class="main">
+      <!-- Section-skills  -->
+      <section class="section-skills">
+        <div class="container">
+          <ul id="skills-key" class="skills-list">
+            <li class="skills-card">
+              <img class="card-icon" src="./img/svg/svg1.svg" alt="" />
+              <h3 class="card-name">UI/UX Design</h3>
+              <p class="card-text">
+                Our design is translated into comprehensive digital environments
+                built on latest development standards.
+              </p>
+            </li>
+
+            <li class="skills-card">
+              <img class="card-icon" src="./img/svg/svg2.svg" alt="" />
+              <h3 class="card-name">Development</h3>
+              <p class="card-text">
+                Our design is translated into comprehensive digital environments
+                built on latest development standards.
+              </p>
+            </li>
+
+            <li class="skills-card">
+              <img class="card-icon" src="./img/svg/svg3.svg" alt="" />
+              <h3 class="card-name">software testing</h3>
+              <p class="card-text">
+                Our design is translated into comprehensive digital environments
+                built on latest development standards.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-portfolio">
+        <div class="container">
+          <h2 id="portfolio-key" class="portfolio-title">Portfolio</h2>
+          <div data-aos="flip-left" class="project">
+            <img class="project-img" src="./img/main/section1.jpg" alt="" />
+            <a href="#!" class="description">Online fashion store - Homepage</a>
+          </div>
+
+          <div data-aos="flip-right" class="project">
+            <img class="project-img" src="./img/main/section2.jpg" alt="" />
+            <a href="#!" class="description">Reebok Store - Concept</a>
+          </div>
+
+          <div data-aos="flip-left" class="project">
+            <img class="project-img" src="./img/main/section3.jpg" alt="" />
+            <a href="#!" class="description">Braun Landing Page - Concept</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer block  -->
+    <footer class="footer">
+      <div class="container">
+        <h2 id="contacts-key" class="footer-title">Contacts</h2>
+        <address class="contacts">
+          <p class="fotter-description">
+            Want to know more or just chat? You are welcome!
+          </p>
+          <div class="btn-wrapper">
+            <a href="" class="btn">Send message</a>
+          </div>
+        </address>
+
+        <ul class="social-list">
+          <li>
+            <a href=""><img src="./img/svg/social/linkedIn.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./img/svg/social/instagram.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./img/svg/social/behance.svg" alt="" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./img/svg/social/dribbble.svg" alt="" /></a>
+          </li>
+        </ul>
+        <div class="social-discription">
+          <p>
+            Like me on <br />
+            LinkedIn, Instagram, Behance, Dribble
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript code  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script.js"></script>
+    <!-- JavaScript code  -->
+  </body>
+</html>
